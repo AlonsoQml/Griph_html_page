@@ -1,0 +1,274 @@
+body {
+	margin: 0;
+}
+/* media queries */
+a, p, h1, h2, h3, h4, h5, h6 {
+	font-family: "Basis Grotesque Pro";
+	line-height: 2.5;
+}
+.container {
+	padding: 0 120px;
+}
+.button_wrap {
+	text-align: center;
+}
+a.button {
+	color: #0A0A0B;
+	font-weight: bold;
+	font-size: 16px;
+}
+a.button:hover {
+	text-decoration: none;
+}
+.button {
+	padding: 14px 24px;
+	border: 3px #999 solid;
+	white-space: nowrap;
+}
+.button i {
+	margin-left: 30px;
+}
+
+/* top section */
+nav {
+	width: 100%;
+	display: block;
+}
+.logo, .top_links {
+	margin-top: 50px;
+	display: inline-block;
+}
+.top_links {
+  font-family: "Basis Grotesque Pro";
+	margin-left: 70px;
+}
+.top_links a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 40px;
+	font-size: .9em;
+}
+.top {
+	background: url(../images/lines.png) right bottom no-repeat, url(../images/top_bg_shadow.png) 0 0 no-repeat, url(../images/top_bg.jpg) center 0 no-repeat;
+	background-size: auto, cover, 100%;
+	min-height: 200px;
+	height: 500px;
+}
+.top_header {
+  padding: 30px 0 0 30px;
+	margin-top: 70px;
+	margin-bottom: 140px;
+	display: inline-block;
+	color: #fff;
+	position: relative;
+}
+.top_header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 105px;
+	width: 6px;
+	background: #fff;
+}
+.top_header::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 6px;
+	width: 145px;
+	background: #fff;
+}
+.top_header h1 {
+	font-size: 2.5em;
+	line-height: 1.2;
+	font-family: 'Basis Grotesque Pro Bold';
+	font-weight: bold;
+}
+/* main */
+main {
+	background: #F7F7F7;
+	margin-bottom: 60px;
+	padding-bottom: 155px;
+}
+.columns_bg_wrap {
+	margin-top: -670px;
+	display: block;
+	position: relative;
+	bottom: -739;
+	height: auto;
+}
+.columns_bg {
+	margin-top: 30px;
+	display: block;
+	background: url(../images/cols_lines.png) 0 0 no-repeat, url(../images/cols.jpg) 0 0 no-repeat;
+	background-size: cover, cover;
+	height: 560px;
+
+}
+.item_text {
+	height: auto;
+	color: #818181;
+	padding: 70px;
+	margin-top: 60px;
+	font-size: 1em;
+	line-height: 2.5;
+}
+.item_text:first-child p strong {
+	color: #0A0A0B;
+}
+.item_text:last-child p {
+	margin-bottom: 40px;
+}
+.item_text h3 {
+	font-family: 'Basis Grotesque Pro Bold';
+	font-weight: bold;
+	line-height: 2.25;
+	color: #0A0A0B;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+#first_item {
+	background: #fff;
+	margin-top: -40px;
+}
+#second_item {
+	background: #FAF4D4;
+	margin-top: 140px;
+}
+#third_item {
+	background: #E4F5FC;
+}
+#fourth_item {
+	background: #FFE4E3;
+	margin-top: 520px;
+}
+#second_item,
+#third_item,
+#fourth_item {
+	font-size: .8em;
+}
+#second_item h3::after {
+	content: "";
+	position: absolute;
+	left: calc(15%);
+	top: 230;
+	width: calc(100% - 30%);
+	height: 5px;
+	background: #000;
+}
+#third_item h3::after {
+	content: "";
+	position: absolute;
+	left: calc(15%);
+	top: 150;
+	width: calc(100% - 30%);
+	height: 5px;
+	background: #000;
+}
+#fourth_item h3::after {
+	content: "";
+	position: absolute;
+	left: calc(15%);
+	top: 605;
+	width: calc(100% - 30%);
+	height: 5px;
+	background: #000;
+}
+
+
+
+/* footer */
+.footer_logo, .footer_slogan {
+	/*display: block;*/
+}
+.footer_wrap {
+	margin-top: 40px;
+	min-height: 350px;
+	height: auto;
+	padding-bottom: 0;
+}
+.footer_item p {
+	margin: 0;
+	color: ;
+}
+.footer_item p strong {
+	color: #0A0A0B;
+}
+.footer_item hr {
+	display: none;
+}
+.footer_social i {
+	font-size: 1.5em;
+	margin-right: 45px;
+	color: #000;
+}
+.copy {
+	float: right;
+}
+.form_wrap {
+	/*text-align: center;*/
+	display: none;
+	
+}
+form#form {
+  margin: 0 auto;
+  position: relative;
+	border: #E7E7E7 3px solid;
+	text-align: center;
+	height: 635px;
+	width: 535px;
+	background: #fff;
+}
+form input {
+	border: #E7E7E7 3px solid;
+}
+#form h5 {
+	margin-top: 30px;
+	font-family: 'Basis Grotesque Pro Bold';
+}
+#form input {
+	padding: 12px 22px;
+	width: 90%;
+	margin: 15px auto;
+}
+.textarea {
+	height: 220px;
+}
+.form_wrap .button {
+	text-align: center;
+	border: 3px #E7E7E7 solid;
+}
+
+
+
+
+
+
+
+
+@font-face {
+font-family: 'Basis Grotesque Pro';
+font-style: normal;
+font-weight: normal;
+src: local('Basis Grotesque Pro'), url('../fonts/BasisGrotesquePro/BasisGrotesquePro-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Basis Grotesque Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Basis Grotesque Pro Bold'), url('../fonts/BasisGrotesquePro/BasisGrotesquePro-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Basis Grotesque Pro Light';
+font-style: normal;
+font-weight: normal;
+src: local('Basis Grotesque Pro Light'), url('../fonts/BasisGrotesquePro/BasisGrotesquePro-Light.woff') format('woff');
+} 
+
